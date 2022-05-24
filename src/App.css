@@ -5,9 +5,25 @@ body{
 .container{
   margin: auto;
   text-align: center;
-  width: 600px;
+  width: 400px;
   margin-top: 80px;
+  padding: 20px;
+  border: 1px green solid;
+  border-radius: 15px;
 }
 .input-button, .input-box{
   font-size: 20px;
+}
+.list{
+  text-align: left;
+  width: 80%;
+  margin: 10px;
+}
+.list li{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.clickval{
+  color: red;
 }
